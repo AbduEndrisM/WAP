@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
+ <!-- 
+<servlet>	 <servlet-name> add</servlet-name> 	<servlet-class>com.servlets.AddServlet</servlet-class>	</servlet>
+<servlet-mapping>   <servlet-name>add</servlet-name> 	<url-pattern>/add</url-pattern>	</servlet-mapping>
+
+
+<servlet>	<servlet-name> calcualtorDispatcher</servlet-name>	<servlet-class>com.servlets.CalculatorServletDispatch</servlet-class> 	</servlet>
+<servlet-mapping>	<servlet-name>calcualtorDispatcher</servlet-name>	<url-pattern>/calculatorOne</url-pattern>	</servlet-mapping>
+
+<servlet>	<servlet-name> calcualtorRedirect</servlet-name>	<servlet-class>com.servlets.CalculatorServletRedirect</servlet-class> 	</servlet>
+<servlet-mapping>	<servlet-name>calcualtorRedirect</servlet-name>	<url-pattern>/calculatorTwo</url-pattern>	</servlet-mapping>
+
+<servlet>	<servlet-name> calcualtorSession</servlet-name>	<servlet-class>com.servlets.CalculatorServletSession</servlet-class> 	</servlet>
+<servlet-mapping>	<servlet-name>calcualtorSession</servlet-name>	<url-pattern>/calculatorSession</url-pattern>	</servlet-mapping>
+
+<servlet>	<servlet-name> calcualtorCookie</servlet-name>	<servlet-class>com.servlets.CalculatorServletCookie</servlet-class> 	</servlet>
+<servlet-mapping>	<servlet-name>calcualtorCookie</servlet-name>	<url-pattern>/calculatorCookie</url-pattern>	</servlet-mapping>
+
+ -->
+<context-param> <param-name> name</param-name> <param-value>Abdu</param-value></context-param>
+</web-app>
